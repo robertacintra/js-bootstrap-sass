@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "ACEA,AACI,GADD,AAAA,OAAO,CACN,cAAc,CAAC;EACX,UAAU,EAJF,OAAO;CAKlB",
+    "mappings": "AGAA,AACI,GADD,AAAA,OAAO,CACN,cAAc,CAAC;EACX,UAAU,EFDV,OAAO;CEEV",
     "sources": [
         "style.scss",
+        "scss/_variables.scss",
+        "scss/_mixins.scss",
         "scss/_header.scss"
     ],
     "names": [],

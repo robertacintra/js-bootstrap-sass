@@ -1,0 +1,16 @@
+// flex
+
+@mixin flex ($justify, $align) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+// btn
+
+@mixin button () {
+    padding: 10px 20px;
+    background: white;
+    text-transform: capitalize;
+    color: gray;
+}
