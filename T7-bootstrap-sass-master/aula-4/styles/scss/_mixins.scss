@@ -8,9 +8,13 @@
 
 // btn
 
-@mixin button () {
-    padding: 10px 20px;
-    background: white;
+@mixin button ($pd-y, $pd-x, $bg, $text) {
+    padding: $pd-y $pd-x;
+    background: $bg;
     text-transform: capitalize;
-    color: gray;
+    color: $text;
+}
+
+.botaoX {
+    @include button(10px, 20px, $color-secondary, '#cccccc');
 }

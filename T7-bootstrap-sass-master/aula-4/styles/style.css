@@ -1,3 +1,10 @@
+.botaoX {
+  padding: 10px 20px;
+  background: #ffffff;
+  text-transform: capitalize;
+  color: "#cccccc";
+}
+
 nav.navbar .navbar-header {
   background: #000000;
 }
