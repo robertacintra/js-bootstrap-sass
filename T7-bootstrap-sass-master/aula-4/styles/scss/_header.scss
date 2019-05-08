@@ -1,5 +1,9 @@
 nav.navbar {
-    .navbar-header {
-        background: $black;
+    .botaoX {
+        @include button(10px, 20px, $color-secondary, '#cccccc');
+    }
+
+    h1 {
+        @include title (uppercase, $color-primary);
     }
 }

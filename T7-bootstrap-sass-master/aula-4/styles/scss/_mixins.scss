@@ -12,9 +12,12 @@
     padding: $pd-y $pd-x;
     background: $bg;
     text-transform: capitalize;
+    font-size: 18px;
     color: $text;
 }
 
-.botaoX {
-    @include button(10px, 20px, $color-secondary, '#cccccc');
+@mixin title ($transform, $color) {
+    font-size: $font-size-title;
+    text-transform: $transform;
+    color: $color;
 }
