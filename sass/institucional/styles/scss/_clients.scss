@@ -12,13 +12,12 @@
     }
 
     .container {
-        padding-top: 40px;
         text-align: center;
 
         .list-unstyled {
             @include flex (center, space-between);
 
-            padding-top: 20px;
+            padding-top: 40px;
         }
     }
 }

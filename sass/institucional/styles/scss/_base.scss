@@ -29,3 +29,8 @@ button {
         width: 90%;
     }
 }
+
+// selects all classes beginning with "section-"
+div[class^="section-"]{
+    padding: $padding 0;
+}
