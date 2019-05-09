@@ -1,0 +1,24 @@
+.section-clients {
+    background-color: $color-bg;
+
+    h4 {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: $font-size-title;
+    }
+
+    p {
+        color: $dark-gray;
+    }
+
+    .container {
+        padding-top: 40px;
+        text-align: center;
+
+        .list-unstyled {
+            @include flex (center, space-between);
+
+            padding-top: 20px;
+        }
+    }
+}
