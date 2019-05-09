@@ -9,6 +9,7 @@
 
     p {
         color: $dark-gray;
+        font-size: $font-size-text;
     }
 
     .container {
@@ -16,8 +17,11 @@
 
         .list-unstyled {
             @include flex (center, space-between);
-
-            padding-top: 40px;
+            margin-top: $padding;
+            
+            li + li {
+                margin-left: 30px;
+            }
         }
     }
 }
