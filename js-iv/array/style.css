@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: rgb(243, 132, 247);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+input {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 30px;
+}
+
+button {
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}

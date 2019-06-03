@@ -1,0 +1,31 @@
+button {
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.roxo {
+    background-color: rgb(211, 43, 226);
+    color: rgb(255, 255, 255);
+}
+
+.lilas {
+    background-color: rgb(252, 206, 252);
+    color: rgb(211, 43, 226);
+}
+
+.transparente {
+    box-sizing: border-box;
+    background-color: transparent;
+    color: rgb(211, 43, 226);
+    border: 3px solid rgb(211, 43, 226);
+}
+
+.roxo-disabled {
+    background-color: rgb(228, 227, 227);
+    color: rgb(190, 190, 190);
+}
