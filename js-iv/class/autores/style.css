@@ -1,0 +1,12 @@
+button {
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(120, 192, 250);
+}

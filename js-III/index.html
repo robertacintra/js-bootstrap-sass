@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 5</title>
+</head>
+<body>
+    <input type="text" name="nome">
+    <button onclick="adicionar()">Adicionar</button>
+    <ul></ul>
+
+    <script>
+    // function adicionar() {
+    //     //pegar valor do input
+    //     let textoInput = document.querySelector('input').value;
+    //     //let createUl = document.createElement('ul');
+    //     //pegamos a ul
+    //     let getUl = document.querySelector('ul');
+    //     //criamos a li
+    //     let createLi = document.createElement('li');
+    //     //falamos que o li vai receber o valor do input
+    //     //(textoInput = document.querySelector('input').value);
+    //     createLi.textContent = textoInput;
+    //     //ul vai receber o filho li
+    //     getUl.appendChild(createLi);
+    // }
+
+    // function limpaInput(input) {
+    //     input.value = "";
+    // }
+
+
+    //Converta as funções nos seguintes trechos de código em Arrow Functions:
+
+// const arr = [1, 2, 3, 4, 5];
+
+// arr.map(function(item) {
+//     return item + 10;
+// });
+
+// // Dica: Utilize uma constante pra function
+
+// const usuario = { nome: 'Diego', idade: 23 };
+
+// function mostraIdade(usuario) {
+//     return usuario.idade;
+// }
+
+// mostraIdade(usuario);
+// // Dica: Utilize uma constante pra function
+
+// const nome = "Diego";
+// const idade = 23;
+
+// function mostraUsuario(nome = 'Diego', idade = 18) {
+//     return { nome, idade };
+// }
+
+// mostraUsuario(nome, idade);
+// mostraUsuario(nome);
+
+// Exercícios:
+// 1º Exercício
+// Converta o seguinte trecho de código utilizando Template Literals:
+
+const usuario = 'Amélia';
+const idade = 25;
+
+// console.log('O usuário ' + usuario + ' possui ' + idade + ' anos');
+
+console.log(`O usuário ${usuario} possui ${idade} anos.`);
+
+// 2º exercício
+// Crie uma função que dado o objeto a seguir:
+
+var endereco = {
+    curso: 'Reprograma',  
+    local: 'Estação Hack',
+    rua: 'Avenida Paulista',
+    numero: 1374,
+    bairro: 'Bela Vista',
+    cidade: 'São Paulo',
+    uf: 'SP'
+};
+
+// Retorne o seguinte conteúdo:
+
+// O curso da Reprograma acontece na Estação Hack que fica localizada em São Paulo / SP, no bairro Bela Vista, na "Avenida Paulista", nº 1374.
+// 3º exercício
+// Dado o seguinte vetor de objetos:
+
+var usuarios = [
+    {
+    nome: 'Bruna',
+    habilidades: ['Javascript', 'ReactJS', 'Redux']
+    },
+    {
+    nome: 'Gabriela',
+    habilidades: ['VueJS', 'Ruby on Rails', 'Elixir']
+    }
+];
+
+// Escreva uma função que produza o seguinte resultado:
+
+// A Bruna possui as habilidades: Javascript, ReactJS, Redux
+// A Gabriela possui as habilidades: VueJS, Ruby on Rails, Elixir
+
+    </script>
+</body>
+</html>

@@ -6,7 +6,16 @@ button {
     width: 150px;
     height: 50px;
     font-weight: bold;
+    cursor: pointer;
 }
+
+button:hover {
+    color: rgb(120, 192, 250);
+}
+
+/* button:focus {
+    border: 2px solid rgb(247, 0, 255);
+} */
 
 .roxo {
     background-color: rgb(211, 43, 226);
@@ -28,4 +37,9 @@ button {
 .roxo-disabled {
     background-color: rgb(228, 227, 227);
     color: rgb(190, 190, 190);
+}
+
+button i {
+    margin: 3px;
+
 }
