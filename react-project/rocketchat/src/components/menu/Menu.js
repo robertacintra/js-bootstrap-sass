@@ -21,8 +21,8 @@ export default class Menu extends React.Component {
         let classeDoBotao = 'navbar-menu__botao'
 
         if(this.state.aberto) {
-            classeDasOpcoes += 'navbar-menu__opcoes--aberto'
-            classeDoBotao += 'navbar-menu__botao--aberto'
+            classeDasOpcoes += ' navbar-menu__opcoes--aberto'
+            classeDoBotao += ' navbar-menu__botao--aberto'
         } else {
 
         }
@@ -31,15 +31,9 @@ export default class Menu extends React.Component {
             <div className='navbar-menu navbar-links'>
                 <a className={classeDoBotao} onClick={this.handleAbreOuFecha}> Menu </a>
                 <ul className={classeDasOpcoes}>
-                    <li>
-                        <Link to="/"className="navbar-links__ativo">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/"className="navbar-links__ativo">Cadastro</Link>
-                    </li>
-                    <li>
-                        <Link to="/"className="navbar-links__ativo">Chat</Link>
-                    </li>
+                    <li><Link to="/"className="navbar-links__ativo">Home</Link></li>
+                    <li><Link to="/cadastro"className="navbar-links__ativo">Cadastro</Link></li>
+                    <li><Link to="/chat"className="navbar-links__ativo">Chat</Link></li>
                 </ul>
             </div>
         )

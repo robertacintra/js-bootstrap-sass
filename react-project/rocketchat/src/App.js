@@ -2,9 +2,9 @@ import React from 'react';
 //pages
 import Home from './pages/Home';
 import './App.css';
-import Nav from './pages/Nav';
+import Nav from './components/Nav';
 import Chat from './pages/Chat';
-import Cadastro from './pages/Cadastro';
+import Cadastro from './pages/cadastro/Cadastro';
 import { Switch, Route } from "react-router-dom";
 
 function App() {
