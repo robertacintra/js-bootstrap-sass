@@ -15,7 +15,7 @@ class LoginPage extends Component {
             login: this.inputLogin.value,
             senha: this.inputSenha.value
         } 
-        fetch('http://localhost:3000/login', {
+        fetch('http://localhost:3001/login', {
             method: 'POST',
             body: JSON.stringify(dadosDeLogin)
         })
@@ -26,6 +26,8 @@ class LoginPage extends Component {
         })
         .then((respJson) => {
             console.log('then ok', respJson)
+            localStorage.setItem('TOKEN', respJson.token)
+            this.props.history.push('/')
         })
         .catch((err) => {
             err.json()
