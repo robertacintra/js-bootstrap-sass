@@ -26,7 +26,7 @@ class Home extends Component {
     
   }
   render() {
-    console.log(this.state.tweets)
+    //console.log(this.state.tweets)
     return (
       <Fragment>
         <Cabecalho>
