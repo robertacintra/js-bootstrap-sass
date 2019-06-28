@@ -8,7 +8,8 @@ class LoginPage extends Component {
     constructor(props){
         super(props)
         this.state = {
-            aparecer: false
+            aparecer: false,
+            mensagem: ''
         }
     }
 
@@ -35,7 +36,10 @@ class LoginPage extends Component {
         .catch((err) => {
             err.json()
             .then(res => {
-                this.setState({aparecer: true})
+                this.setState({
+                    aparecer: true,
+                    mensagem: res.message
+                })
             })
         })
     }
@@ -71,7 +75,7 @@ class LoginPage extends Component {
                                 </div>
                                 {this.state.aparecer === true  ?
                                     <div className="loginPage__errorBox">
-                                        Mensagem de erro!
+                                        {this.state.mensagem}
                                     </div> :
                                     ''}
                                 <div className="loginPage__inputWrap">
